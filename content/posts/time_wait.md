@@ -14,6 +14,7 @@ tags:
 
 1. `TIME_WAIT` 的定义?
 2. 为什么需要 `TIME_WAIT` 且持续 `2*MSL`?
+3. `TIME_WAIT` 引起的问题? 怎么解决?
 
 <!--more-->
 
@@ -39,6 +40,16 @@ tags:
 + 收到 `ACK`, 并关闭连接
   + `TIME_WAIT` < `2*MSL`, 如果客户端以相同 4 元组建立新的 TCP 连接;<br>
     但网络中仍有旧连接的数据 (<u>e.g. 客户端在发送最后的 `ACK` 之前, 发送的包到达服务端 <`1*MSL`, 服务端应答并到达客户端 <`1*MSL`</u>), 这个旧的包可能刚好可以被客户端承认
+
+## Too many `TIME_WAIT`s
+
+`net.ipv4.tcp_tw_reuse`: 新的 timestamp 如果严格大于之前连接记录的最近的 timestamp, 1 个处于 `TIME_WAIT` 的 outgoing 连接可以被重用 (等待 1s 即可)。
+
++ 客户端 `ACK` 丢包, 服务端处于 `LAST_ACK` 状态;
++ 客户端准备建立连接, 发送 `SYN` 包;
++ 服务端收到 `SYN` 包, 返回 `FIN, ACK` 而不是 `RST` 重置连接;
++ 客户端收到 `FIN, ACK`, 发送 `RST` 重置连接;
++ 客户端发送 `SYN` 建立连接;
 
 ## Refer:
 
