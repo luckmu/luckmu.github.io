@@ -3,4 +3,5 @@
 &lt;ol>
 &lt;li>&lt;code>TIME_WAIT&lt;/code> 的定义?&lt;/li>
 &lt;li>为什么需要 &lt;code>TIME_WAIT&lt;/code> 且持续 &lt;code>2*MSL&lt;/code>?&lt;/li>
+&lt;li>&lt;code>TIME_WAIT&lt;/code> 引起的问题? 怎么解决?&lt;/li>
 &lt;/ol></description></item></channel></rss>
