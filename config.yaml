@@ -1,0 +1,15 @@
+baseURL: https://luckmu.github.io/
+languageCode: en-us
+title: luckmu's writepad
+theme: blank
+
+paginate: 10
+
+menus:
+  main:
+    - name: Tags
+      url: tags/
+      weight: 1
+    - name: Categories
+      url: categories/
+      weight: 2

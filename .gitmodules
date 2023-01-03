@@ -1,0 +1,4 @@
+[submodule "themes/blank"]
+	path = themes/blank
+	url = git@github.com:luckmu/blank.git
+	branch = master
