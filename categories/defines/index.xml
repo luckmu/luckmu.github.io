@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>defines on Luckmu's writepad</title><link>https://luckmu.github.io/categories/defines/</link><description>Recent content in defines on Luckmu's writepad</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Luckmu</copyright><lastBuildDate>Tue, 03 Jan 2023 04:41:57 +0800</lastBuildDate><atom:link href="https://luckmu.github.io/categories/defines/index.xml" rel="self" type="application/rss+xml"/><item><title>TIME_WAIT in TCP</title><link>https://luckmu.github.io/posts/time_wait/</link><pubDate>Tue, 03 Jan 2023 04:41:57 +0800</pubDate><guid>https://luckmu.github.io/posts/time_wait/</guid><description>&lt;p>之前 k8s 集群里出现过多 &lt;code>TIME_WAIT&lt;/code> 导致网络问题, 又面试遇到, 特记录。&lt;/p>
-&lt;p>主要问题是:&lt;/p>
-&lt;ol>
-&lt;li>&lt;code>TIME_WAIT&lt;/code> 的定义?&lt;/li>
-&lt;li>为什么需要 &lt;code>TIME_WAIT&lt;/code> 且持续 &lt;code>2*MSL&lt;/code>?&lt;/li>
-&lt;li>&lt;code>TIME_WAIT&lt;/code> 引起的问题? 怎么解决?&lt;/li>
-&lt;/ol></description></item></channel></rss>
