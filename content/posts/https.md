@@ -8,7 +8,7 @@ tags:
   - https
 ---
 
-What is https; How it works.
+主要是 https 的原理和流程, 以及基础的 faq 。
 
 <!--more-->
 
@@ -75,3 +75,9 @@ TLS 4WH:
   + 2 对:
     + 服务器公钥、私钥: 公钥(在数字证书中), 客户端用于加密 3 个随机数得**会话密钥**, 服务端用对应私钥解密
     + CA 公钥、私钥: 二次握手, 服务器数字证书是用CA私钥加密, 客户端用CA公钥解密得到服务器公钥
+
+## Refer
+
++ [为什么用公钥加密却不能用公钥解密?](https://mp.weixin.qq.com/s/YXVURw55G2hT7BtShdGG4A)
++ [TLS 中的密钥计算](https://halfrost.com/https-key-cipher/)
++ [为什么非对称加密比对称加密慢?](https://cloud.tencent.com/developer/article/1672173)
