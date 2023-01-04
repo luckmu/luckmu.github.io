@@ -4,4 +4,4 @@
 &lt;li>&lt;code>TIME_WAIT&lt;/code> 的定义?&lt;/li>
 &lt;li>为什么需要 &lt;code>TIME_WAIT&lt;/code> 且持续 &lt;code>2*MSL&lt;/code>?&lt;/li>
 &lt;li>&lt;code>TIME_WAIT&lt;/code> 引起的问题? 怎么解决?&lt;/li>
-&lt;/ol></description></item><item><title>About HTTPS</title><link>https://luckmu.github.io/posts/https/</link><pubDate>Mon, 02 Jan 2023 23:47:46 +0800</pubDate><guid>https://luckmu.github.io/posts/https/</guid><description>&lt;p>What is https; How it works.&lt;/p></description></item></channel></rss>
+&lt;/ol></description></item><item><title>About HTTPS</title><link>https://luckmu.github.io/posts/https/</link><pubDate>Mon, 02 Jan 2023 23:47:46 +0800</pubDate><guid>https://luckmu.github.io/posts/https/</guid><description>&lt;p>主要是 https 的原理和流程, 以及基础的 faq 。&lt;/p></description></item></channel></rss>
