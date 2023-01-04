@@ -3,7 +3,7 @@ title: "TIME_WAIT in TCP"
 date: 2023-01-03T04:41:57+08:00
 draft: false
 categories:
-  - defines
+  - network
 tags:
   - tcp
 ---
