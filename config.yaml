@@ -2,17 +2,20 @@ baseURL: https://luckmu.github.io/
 languageCode: en-us
 title: Luckmu's writepad
 copyright: Luckmu
-theme: blank
+theme: hyde
 
 paginate: 5
+
+params:
+  description: "Luckmu's daily writings."
 
 menus:
   main:
     - name: Tags
-      url: tags/
+      url: /tags/
       weight: 1
     - name: Categories
-      url: categories/
+      url: /categories/ 
       weight: 2
 
 markup:
